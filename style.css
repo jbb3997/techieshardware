@@ -9,6 +9,9 @@ body {margin:0;}
   margin:30px 0;
 }
 
+
+
+
 nav {
   border: 1px solid;
   border-right:none;
@@ -76,6 +79,17 @@ a {
 .shopBtn:hover {
   background:#fff;
   color:#000;
+}
+
+.shopSectionTitle {
+  border: 3px solid;
+  border-left:none;
+  border-right: none;
+  margin-bottom: 30px;
+}
+
+.shopSectionTitle h2 {
+  margin:10px 0;
 }
 
 footer {
