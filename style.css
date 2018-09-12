@@ -9,9 +9,6 @@ body {margin:0;}
   margin:30px 0;
 }
 
-
-
-
 nav {
   border: 1px solid;
   border-right:none;
@@ -95,4 +92,15 @@ a {
 footer {
   background:#ccc;
   padding:20px;
+}
+
+
+@media (max-width:425px) {
+  .container {width:90%}
+  .shopSection {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  header img {
+    width:100%;
+  }
 }
